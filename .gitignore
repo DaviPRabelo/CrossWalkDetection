@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Dados e saídas de treino (ficam no Roboflow / Drive)
+datasets/
+runs/
+metricas/
+*.pt
+*.onnx
+*.engine
+
+# Segredos
+.env
+roboflow.key
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
